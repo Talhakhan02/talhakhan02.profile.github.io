@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactme</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Josefin sans', sans-serif;
+    }
+    section{
+        padding: 40px 15%;
+    }
+    .contact{
+        background: #101010;
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        align-items: center;
+        grid-gap: 6rem;
+    }
+    .contact-img img{
+        max-width: 100%;
+        width: 720px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .contact-form h1{
+        font-size: 80px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    span{
+        color: #f9004d;
+    }
+    .contact-form p{
+        color: #c6c9d8bf;
+        letter-spacing: 1px;
+        line-height: 26px;
+        font-size: 1.1rem;
+        margin-bottom: 3.8rem;
+    }
+    .contact-form form{
+        position: relative;
+    }
+    .contact-form form input,
+    form textarea{
+        width: 100%;
+        padding: 17px;
+        border: none;
+        outline: none;
+        background: #191919;
+        color: #fff;
+        font-size: 1.1rem;
+        margin-bottom: 0.7rem;
+        border-radius: 10px;
+    }
+    .contact-form textarea{
+        resize: none;
+        height: 200px;
+    }
+    .contact-form form .btn{
+        display: inline-block;
+        background: #f9004d;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        width: 200px;
+        transition: ease .20s;
+        cursor: pointer;
+    }
+    .contact-form form .btn:hover{
+        border:2px solid #f9004d;
+        background: transparent;
+        transform: scale(1.1);
+    } 
+</style>
+<body>
+    <section class="contact">
+<div class="contact-form">
+    <h1>Contact<span>Us</span></h1>
+    <p>I am Available for freelance work. Contact with me via phone : 8273085079 or E-mail : Talhakhan8066@gmail.com</p>
+    <form action="">
+<input type="" placeholder="Your Name" required>
+<input type="email" placeholder="Your email" required>
+<input type="" placeholder="Write a Subject" required>
+<textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required>
+
+</textarea>
+<input type="submit" name="" value="Submit" class="btn">
+    </form>
+</div>
+<div class="contact-image">
+    <img src="backgr">
+</div>
+    </section>
+</body>
+</html>
